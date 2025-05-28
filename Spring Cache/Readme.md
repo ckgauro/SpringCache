@@ -37,9 +37,9 @@ Spring Framework supports various caching strategies and types to improve perfor
 
 ---
 
-## 1. 🗂 In-Memory Caching
+## 1. In-Memory Caching
 
-Caches data locally within the application's memory. Fast access but not shared across multiple instances.
+🗂 Caches data locally within the application's memory. Fast access but not shared across multiple instances.
 
 **Examples:**
 
@@ -55,9 +55,9 @@ public Product getProductById(Long id) {
 }
 ```
 
-## 2. 🌐 Distributed Caching
+## 2. Distributed Caching
 
-Caches data in an **external shared system**, enabling consistent cache access across multiple application instances.
+🌐 Caches data in an **external shared system**, enabling consistent cache access across multiple application instances.
 
 ### ✅ Examples
 
@@ -73,9 +73,9 @@ Caches data in an **external shared system**, enabling consistent cache access a
 spring.cache.type=redis
 ```
 
-## 3. 🧾 Declarative Caching
+## 3. Declarative Caching
 
-Uses annotations to **declaratively define caching behavior** directly on methods.
+🧾 Uses annotations to **declaratively define caching behavior** directly on methods.
 
 ### 🧩 Key Annotations
 
@@ -88,9 +88,9 @@ Uses annotations to **declaratively define caching behavior** directly on method
 
 ---
 
-## 4. 🧬 Programmatic Caching
+## 4. Programmatic Caching
 
-Provides **manual control** over caching using `CacheManager` and `Cache` interfaces — useful for dynamic or conditional scenarios.
+🧬 Provides **manual control** over caching using `CacheManager` and `Cache` interfaces — useful for dynamic or conditional scenarios.
 
 ### 💻 Example
 
@@ -106,9 +106,9 @@ public void updateCacheManually(String key, Product product) {
 }
 ```
 
-## 5. 📊 Level-Based Caching
+## 5. Level-Based Caching
 
-Implements a **multi-level caching strategy** to optimize both speed and consistency in distributed systems.
+📊 Implements a **multi-level caching strategy** to optimize both speed and consistency in distributed systems.
 
 ### 🔹 Types
 
@@ -123,9 +123,9 @@ Implements a **multi-level caching strategy** to optimize both speed and consist
 
 ---
 
-## 6. ⛓ Synchronized Caching (Spring 4.3+)
+## 6. Synchronized Caching (Spring 4.3+)
 
-Prevents a **cache stampede** by **synchronizing concurrent access** when the cache entry is missing.
+⛓ Prevents a **cache stampede** by **synchronizing concurrent access** when the cache entry is missing.
 
 ### 🔐 Example
 
@@ -137,9 +137,9 @@ public User getUser(int id) {
 }
 ```
 
-## 7. ⚛️ Reactive Caching (Spring 5+)
+## 7. Reactive Caching (Spring 5+)
 
-Designed for **non-blocking**, **asynchronous** applications using **Spring WebFlux**.
+⚛️ Designed for **non-blocking**, **asynchronous** applications using **Spring WebFlux**.
 
 ### 🔧 Tools
 
@@ -165,9 +165,9 @@ public Mono<User> getUserReactive(int id) {
 }
 ```
 
-## 8. 🛠 Custom Caching
+## 8. Custom Caching
 
-Define your own caching strategy using Spring’s `CacheManager` for advanced or hybrid scenarios.
+🛠 Define your own caching strategy using Spring’s `CacheManager` for advanced or hybrid scenarios.
 
 ### 🧱 Example
 
