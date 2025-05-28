@@ -39,6 +39,8 @@ Spring Framework supports various caching strategies and types to improve perfor
 
 ## 1. 🗂 In-Memory Caching
 
+#1-🗂-in-memory-caching
+
 Caches data locally within the application's memory. Fast access but not shared across multiple instances.
 
 **Examples:**
@@ -54,6 +56,8 @@ public Product getProductById(Long id) {
     return new Product(id, "Sample");
 }
 ```
+
+#2-🌐-distributed-caching
 
 ## 2. 🌐 Distributed Caching
 
