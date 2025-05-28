@@ -26,23 +26,14 @@ Spring Framework supports various caching strategies and types to improve perfor
 
 ## 📚 Table of Contents
 
-1. [🗂 In-Memory Caching](#1-🗂-in-memory-caching)
-2. [🌐 Distributed Caching](#2-🌐-distributed-caching)
-3. [🧾 Declarative Caching](#3-🧾-declarative-caching)
-4. [🧬 Programmatic Caching](#4-🧬-programmatic-caching)
-5. [📊 Level-Based Caching](#5-📊-level-based-caching)
-6. [⛓ Synchronized Caching (Spring 4.3+)](#6-⛓-synchronized-caching-spring-43)
-7. [⚛️ Reactive Caching (Spring 5+)](#7-⚛️-reactive-caching-spring-5)
-8. [🛠 Custom Caching](#8-🛠-custom-caching)
-
-9. [🗂 In-Memory Caching](#1-in-memory-caching)
-10. [🌐 Distributed Caching](#2-distributed-caching)
-11. [🧾 Declarative Caching](#3-declarative-caching)
-12. [🧬 Programmatic Caching](#4-programmatic-caching)
-13. [📊 Level-Based Caching](#5-level-based-caching)
-14. [⛓ Synchronized Caching (Spring 4.3+)](#6-synchronized-caching-spring-43)
-15. [⚛️ Reactive Caching (Spring 5+)](#7-reactive-caching-spring-5)
-16. [🛠 Custom Caching](#8-custom-caching)
+1. [🗂 In-Memory Caching](#1-in-memory-caching)
+2. [🌐 Distributed Caching](#2-distributed-caching)
+3. [🧾 Declarative Caching](#3-declarative-caching)
+4. [🧬 Programmatic Caching](#4-programmatic-caching)
+5. [📊 Level-Based Caching](#5-level-based-caching)
+6. [⛓ Synchronized Caching (Spring 4.3+)](#6-synchronized-caching-spring-43)
+7. [⚛️ Reactive Caching (Spring 5+)](#7-reactive-caching-spring-5)
+8. [🛠 Custom Caching](#8-custom-caching)
 
 ---
 
