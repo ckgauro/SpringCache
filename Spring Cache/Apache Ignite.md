@@ -34,3 +34,43 @@ Apache Ignite provides support for **Spring Cache Abstraction** via its **Spring
   <version>2.15.0</version>
 </dependency>
 ```
+
+## 📊 Advantages
+
+- 🔥 In-memory speed with optional durability
+- 🌐 Scales horizontally
+- 🧮 Run computations directly on the grid
+- 🛡 Offers strong consistency and transactions
+- 🧩 Easily integrates with Spring, JDBC, Kafka
+
+---
+
+## ⚠️ Limitations
+
+- 💡 Steeper learning curve than Redis or Caffeine
+- 🔧 Complex cluster setup and configuration
+- 📊 Overkill for simple key-value caching use cases
+
+---
+
+## 🧭 When to Use Apache Ignite
+
+### ✅ Choose Ignite if you:
+
+- Need both data and compute grid in one platform
+- Want SQL + distributed transactions
+- Require collocated processing of large datasets
+- Are building real-time analytics or in-memory OLAP
+
+### ❌ Avoid if you:
+
+- Need a simple key-value store (Redis or Caffeine is better)
+- Don’t require distributed compute or persistence
+
+---
+
+## 📘 Resources
+
+- 🔗 [Apache Ignite Official Site](https://ignite.apache.org/)
+- 📚 [Spring Integration Docs](https://spring.io/projects/spring-integration)
+- 🧪 [JCache Support](https://github.com/jsr107/jsr107spec)
