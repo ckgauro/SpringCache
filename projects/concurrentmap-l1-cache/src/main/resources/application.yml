@@ -1,1 +1,3 @@
-spring.application.name=concurrentmap-l1-cache
+spring:
+  cache:
+    type: simple # Enables ConcurrentMapCache
